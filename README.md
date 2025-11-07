@@ -15,7 +15,7 @@ Een web applicatie om voetbalspelers eerlijk te verdelen over twee teams voor ee
 
 ## 🚀 Live Demo
 
-[Bekijk de live demo](https://USERNAME.github.io/REPOSITORY-NAME/)
+[Bekijk de live demo](https://jeffreylauwers.github.io/speler-verdeler/)
 
 ## 💻 Lokaal draaien
 
@@ -59,7 +59,7 @@ MIT
 
 ## 👤 Auteur
 
-Jouw naam hier
+Jeffrey Lauwers
 
 ---
 
