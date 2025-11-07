@@ -323,7 +323,7 @@ const SoccerTeamBalancer = () => {
           onClick={() => setCurrentView('select')}
           className="mt-6 bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-700 w-full flex items-center justify-center gap-2"
         >
-          <Play size={20} /> Wedstrijd opstellen
+          Aanwezigen selecteren
         </button>
       )}
     </div>
@@ -375,7 +375,7 @@ const SoccerTeamBalancer = () => {
           disabled={selectedPlayerIds.length < 2}
           className="flex-1 bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-700 disabled:bg-gray-300 disabled:cursor-not-allowed"
         >
-          Teams genereren
+          Teams indelen
         </button>
       </div>
     </div>
@@ -384,7 +384,7 @@ const SoccerTeamBalancer = () => {
   // View: Teams Display
   const TeamsView = () => (
     <div>
-      <h2 className="text-2xl font-bold mb-6">Gegenereerde teams</h2>
+      <h2 className="text-2xl font-bold mb-6">Dit zijn de teams</h2>
       
       <div className="grid md:grid-cols-2 gap-6 mb-6">
         <div className="bg-blue-50 p-6 rounded-lg border-2 border-blue-300">
@@ -423,7 +423,7 @@ const SoccerTeamBalancer = () => {
           onClick={reshuffleTeams}
           className="flex-1 bg-purple-600 text-white px-6 py-3 rounded-md hover:bg-purple-700 flex items-center justify-center gap-2"
         >
-          <Shuffle size={20} /> Teams opnieuw verdelen
+          <Shuffle size={20} /> Opnieuw verdelen
         </button>
       </div>
     </div>
@@ -433,8 +433,8 @@ const SoccerTeamBalancer = () => {
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50 p-4">
       <div className="max-w-4xl mx-auto py-8">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">⚽ Soccer Team Balancer</h1>
-          <p className="text-gray-600">Maak eerlijke en gebalanceerde teams voor je wedstrijden</p>
+          <h1 className="text-4xl font-bold text-gray-800 mb-2">⚽ Speler Verdeler ⚽</h1>
+          <p className="text-gray-600">Maak eerlijke en gebalanceerde teams voor je voetbalwedstrijden.</p>
         </div>
 
         {currentView === 'manage' && <ManagePlayersView />}
